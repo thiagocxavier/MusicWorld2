@@ -1,18 +1,18 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
     color: #333;
 }
 
-/* HEADER */
+
 header {
     background: #1db954;
     color: white;
@@ -24,7 +24,7 @@ header h1 {
     margin-bottom: 5px;
 }
 
-/* MENU */
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ nav ul li a:hover {
     color: #1db954;
 }
 
-/* BANNER */
+
 .banner {
     text-align: center;
     padding: 60px 20px;
@@ -65,7 +65,6 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
-/* BOTÃO */
 .btn {
     background: white;
     color: #1db954;
@@ -81,19 +80,16 @@ nav ul li a:hover {
     color: white;
 }
 
-/* LAYOUT */
 .container {
     display: flex;
     padding: 20px;
     gap: 20px;
 }
 
-/* MAIN */
 main {
     width: 70%;
 }
 
-/* SEÇÕES */
 section {
     background: white;
     padding: 20px;
@@ -111,13 +107,11 @@ section p {
     margin-bottom: 10px;
 }
 
-/* LISTAS */
 section ul {
     margin-left: 20px;
     margin-top: 10px;
 }
 
-/* IMAGENS */
 section img {
     width: 100%;
     max-height: 350px;
@@ -126,7 +120,7 @@ section img {
     margin-top: 10px;
 }
 
-/* SIDEBAR */
+
 aside {
     width: 30%;
 }
@@ -144,7 +138,6 @@ aside {
     margin-bottom: 10px;
 }
 
-/* LINKS SIDEBAR */
 .box a {
     text-decoration: none;
     color: #1db954;
@@ -154,7 +147,6 @@ aside {
     text-decoration: underline;
 }
 
-/* CARDS */
 .cards {
     display: flex;
     gap: 20px;
@@ -194,7 +186,6 @@ aside {
     background: #14833b;
 }
 
-/* FOOTER */
 footer {
     background: #222;
     color: white;
